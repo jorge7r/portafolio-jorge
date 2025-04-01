@@ -1,106 +1,109 @@
 /* Add styles here */
 :root {
-    --light-input-color: #e8e2d9;
-    --light-color: #d4c2b420;
-    --text-color: #6a5c55;
-    --text-color-light: #6a5c5570;
-    --max-screen: 1024px;
-    --button-green: #5f7268;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-  .text-sec-color {
-    color: var(--text-color) 70%;
-  }
-  
-  .text-color {
-    color: var(--text-color);
-  }
-  
-  .bg-light {
-    background: var(--light-color);
-  }
+  --light-input-color: #e8e2d9;
+  --light-color: #d4c2b420;
+  --text-color: #6a5c55;
+  --text-color-light: #6a5c5570;
+  --max-screen: 1024px;
+  --button-green: #5f7268;
+}
 
-  header .container {
-    margin: 1rem auto;
-    width: 100%;
-    max-width: var(--max-screen);
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-  }
-  header {
-    width: 100%;
-    background: var(--light-color);
-    color: var(--text-color);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  header .name {
-    font-size: 24px;
-    color: var(--text-color);
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    align-items: baseline;
-  }
-  
-  header .min {
-    font-size: 18px;
-    color: var(--text-color-light);
-  }
-  
-  header .links {
-    display: flex;
-    gap: 1rem;
-    align-items: baseline;
-  }
-  
-  header a {
-    color: var(--text-color);
-    text-decoration: none;
-    overflow-y: hidden;
-  }
-  .hero.container {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    max-height: calc(100vh - 60px);
-    overflow: hidden;
-    display: grid;
-    justify-content: center;
-  }
-  
-  .hero .img {
-    width: 100%;
-    overflow-y: hidden;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
-  h1 {
-    text-align: center;
-    font-size: 24px;
-    color: var(--text-color);
-    font-weight: bolder;
-  }
+.text-sec-color {
+  color: var(--text-color) 70%;
+}
 
-  main.container {
-    max-width: var(--max-screen);
-    margin: 0 auto;
-  }
-  
-  main .row {
-    margin: 3rem auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 3rem;
-    align-items: center;
-  } 
-    
+.text-color {
+  color: var(--text-color);
+}
+
+.bg-light {
+  background: var(--light-color);
+}
+
+header .container {
+  margin: 1rem auto;
+  width: 100%;
+  max-width: var(--max-screen);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+header {
+  width: 100%;
+  background: var(--light-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header .name {
+  font-size: 24px;
+  color: var(--text-color);
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: baseline;
+}
+
+header .min {
+  font-size: 18px;
+  color: var(--text-color-light);
+}
+
+header .links {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+header a {
+  color: var(--text-color);
+  text-decoration: none;
+  overflow-y: hidden;
+}
+
+.hero.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  max-height: calc(100vh - 60px);
+  overflow: hidden;
+  display: grid;
+  justify-content: center;
+}
+
+.hero .img {
+  width: 100%;
+  overflow-y: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: var(--text-color);
+  font-weight: bolder;
+}
+
+main.container {
+  max-width: var(--max-screen);
+  margin: 0 auto;
+}
+
+main .row {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+}
