@@ -82,4 +82,25 @@
     width: 100%;
     overflow-y: hidden;
   }
+
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    color: var(--text-color);
+    font-weight: bolder;
+  }
+
+  main.container {
+    max-width: var(--max-screen);
+    margin: 0 auto;
+  }
+  
+  main .row {
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+  } 
     
