@@ -115,3 +115,43 @@ main img {
   box-shadow: 0px 10px 19px -4px rgba(147, 125, 115, 1);
   border-radius: 10px;
 }
+
+main.bio .title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+main.bio .title-section p {
+  width: 100%;
+  text-align: center;
+  color: var(--text-color-light);
+}
+
+main.bio .title-section img {
+  border-radius: 99999px !important;
+  aspect-ratio: 1/1;
+  height: 15rem;
+}
+
+main.bio section.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5rem;
+}
+
+main.bio section.bio p {
+  max-width: var(--max-screen);
+  text-align: justify;
+  font-style: italic;
+}
+
+main.bio section.bio p.strong {
+  font-weight: bolder;
+  font-size: 24px;
+}
