@@ -162,7 +162,7 @@ main.bio section.bio {
 }
 
 section.bio {
-  height: calc(100vh - 36.6rem) !important;
+  height: calc(100vh - 32.6rem) !important;
 }
 
 main.bio section.bio p {
