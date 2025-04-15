@@ -67,6 +67,7 @@ header .links {
   display: flex;
   gap: 1rem;
   align-items: baseline;
+  text-align: center;
 }
 
 header a {
@@ -160,6 +161,10 @@ main.bio section.bio {
   padding-bottom: 5rem;
 }
 
+section.bio {
+  height: calc(100vh - 36.6rem) !important;
+}
+
 main.bio section.bio p {
   max-width: var(--max-screen);
   text-align: justify;
@@ -169,4 +174,20 @@ main.bio section.bio p {
 main.bio section.bio p.strong {
   font-weight: bolder;
   font-size: 24px;
+}
+
+footer {
+  width: 100vw;
+  display: grid;
+  place-content: center;
+}
+
+footer p {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-style: italic;
+  font-weight: bold;
+  color: var(--text-color-light);
 }
