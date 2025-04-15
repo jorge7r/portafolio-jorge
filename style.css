@@ -28,10 +28,13 @@ body {
   background: var(--light-color);
 }
 
+header a {
+  min-width: 120px;
+}
+
 header .container {
   margin: 1rem auto;
   width: 100%;
-  max-width: var(--max-screen);
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -72,7 +75,7 @@ header a {
   overflow-y: hidden;
 }
 
-.hero.container {
+.hero.container-img {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -99,14 +102,26 @@ main.container {
   margin: 0 auto;
 }
 
-main .row {
+.container {
+  margin: 0 auto;
+}
+
+main.container {
   margin: 3rem auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 3rem;
-  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
 }
+
+.row {
+  gap: 2rem;
+}
+
+.row .col {
+  display: grid;
+  place-content: center;
+}
+
 main img {
   aspect-ratio: 9/16;
   max-width: 15rem;
