@@ -247,6 +247,7 @@ main.contact {
   padding: 12px 25px;
   cursor: pointer;
   font-weight: bold;
+  width: 100%;
 }
 
 .send-button:hover {
