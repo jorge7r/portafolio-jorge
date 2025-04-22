@@ -211,3 +211,41 @@ footer p {
   font-weight: bold;
   color: var(--text-color-light);
 }
+
+/* styles.css */
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: var(--light-color); /* Light gray background */
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-custom {
+  background-color: var(--light-input-color); /* Light beige input fields */
+  border: none;
+  padding: 12px 20px;
+  margin-bottom: 15px;
+}
+
+.message-custom {
+  background-color: #e9ecef; /* Light beige textarea */
+  border: none;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  resize: none; /* Prevent resizing of the textarea */
+}
+
+.send-button {
+  background-color: var(--button-green); /* Dark olive green button */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.send-button:hover {
+  background-color: #6b8e23; /* Slightly lighter olive green on hover */
+}
