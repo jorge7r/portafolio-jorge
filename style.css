@@ -1,4 +1,8 @@
 /* Add styles here */
+@font-face {
+  font-family: 'Libre';
+  src: url('./fonts/LibreBaskerville-Regular.ttf');
+}
 :root {
   --light-input-color: #e8e2d9;
   --light-color: #d4c2b420;
@@ -8,7 +12,12 @@
   --button-green: #5f7268;
 }
 
+* {
+  font-family: 'Libre', sans-serif;
+}
+
 body {
+  font-family: 'Libre', sans-serif;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
