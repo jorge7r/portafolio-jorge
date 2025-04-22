@@ -212,7 +212,10 @@ footer p {
   color: var(--text-color-light);
 }
 
-/* styles.css */
+main.contact {
+  height: calc(100vh - 15rem);
+}
+
 .contact-form {
   max-width: 400px;
   margin: 0 auto;
