@@ -99,6 +99,17 @@ header a {
   width: 100%;
   overflow-y: hidden;
 }
+.hero .main-name {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.hero small {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+
 
 h1 {
   text-align: center;
