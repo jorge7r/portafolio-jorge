@@ -157,7 +157,7 @@ main.bio .title-section {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
 }
 
 main.bio .title-section p {
@@ -230,28 +230,28 @@ main.paint p {
   max-width: 400px;
   margin: 0 auto;
   padding: 30px;
-  background-color: var(--light-color); /* Light gray background */
+  background-color: var(--light-color); 
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .input-custom {
-  background-color: var(--light-input-color); /* Light beige input fields */
+  background-color: var(--light-input-color);
   border: none;
   padding: 12px 20px;
   margin-bottom: 15px;
 }
 
 .message-custom {
-  background-color: #e9ecef; /* Light beige textarea */
+  background-color: #e9ecef; 
   border: none;
   padding: 15px 20px;
   margin-bottom: 20px;
-  resize: none; /* Prevent resizing of the textarea */
+  resize: none; 
 }
 
 .send-button {
-  background-color: var(--button-green); /* Dark olive green button */
+  background-color: var(--button-green); 
   color: white;
   border: none;
   padding: 12px 25px;
@@ -261,22 +261,25 @@ main.paint p {
 }
 
 .send-button:hover {
-  background-color: #6b8e23; /* Slightly lighter olive green on hover */
+  background-color: var(--button-green); 
 }
 
 .image-container-paint {
-  max-width: 80%; /* Adjust as needed */
-  max-height: 80%; /* Adjust as needed */
+ width: 100%;
 }
 
 .piece-name {
   font-size: 2em;
   font-weight: bold;
-  color: #556b2f; /* Dark olive green for the title */
+  color: var(--button-green); 
 }
 
 .piece-description {
   font-size: 1.1em;
   line-height: 1.6;
-  color: #666; /* Medium gray for the description */
+  color: #666; 
+}
+
+.img-fluid {
+  width: 100%;
 }
