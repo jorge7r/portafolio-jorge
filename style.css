@@ -215,6 +215,15 @@ main.contact {
   height: calc(100vh - 11rem);
 }
 
+
+
+@media (max-width: 480px) {
+  main.paint {
+    height: 100vh!important;
+  }
+  
+}
+
 main.paint {
   height: calc(100vh - 7rem);
   display: flex;
