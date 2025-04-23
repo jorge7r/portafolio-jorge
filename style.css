@@ -217,11 +217,10 @@ main.contact {
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 990px) {
   main.paint {
-    height: 100vh!important;
+    height: auto!important;
   }
-  
 }
 
 main.paint {
