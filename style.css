@@ -217,7 +217,7 @@ main.contact {
 }
 
 main.paint {
-  height: calc(100vh - 12rem);
+  height: calc(100vh - 7rem);
   display: flex;
   place-content: center;
 }
