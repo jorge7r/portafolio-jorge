@@ -135,6 +135,8 @@ main.container {
 }
 
 .row {
+  display: grid;
+  place-content: center;
   gap: 2rem;
 }
 
