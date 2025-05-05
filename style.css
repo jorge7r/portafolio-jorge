@@ -145,6 +145,7 @@ main.container {
 
 main img, amp-img {
   aspect-ratio: 9/16;
+  max-width: fit-content;
   -webkit-box-shadow: 0px 10px 19px -4px rgba(147, 125, 115, 1);
   -moz-box-shadow: 0px 10px 19px -4px rgba(147, 125, 115, 1);
   box-shadow: 0px 10px 19px -4px rgba(147, 125, 115, 1);
