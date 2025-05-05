@@ -134,9 +134,12 @@ main.container {
   gap: 2rem;
 }
 
-.row {
+.index-img .row {
   display: grid;
   place-content: center;
+}
+
+.row {
   gap: 2rem;
 }
 
