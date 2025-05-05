@@ -134,10 +134,7 @@ main.container {
   gap: 2rem;
 }
 
-.index-img .row {
-  display: grid;
-  place-content: center;
-}
+
 
 .row {
   gap: 2rem;
@@ -228,6 +225,10 @@ main.contact {
 @media (max-width: 990px) {
   main.paint {
     height: auto!important;
+  }
+  .index-img .row {
+    display: grid;
+    place-content: center;
   }
 }
 
